@@ -8,15 +8,16 @@ function Cadburry(){
 }
     */ }
     // Arrow Function
-    const Cadburry= () =>{
-        return <h3>Kitkat</h3>
+    const Cadburry= (props) =>{
+        console.log(props);
+        return <h3>{props.name}-{props.price}</h3>
     }
 
 root.render(
     
   <>
   <h1>All Cadburry</h1>
-  <Cadburry/>
+  <Cadburry name="kitkat" price="20"/>
     
            {/*<h1>Kitkat</h1>
 <h2>Price:{5+5}</h2>
