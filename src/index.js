@@ -1,4 +1,5 @@
 import { createRoot } from "react-dom/client";
+import {Cadburry,CadburryKitkat} from "./App.js";
 
 const root = createRoot(document.getElementById("root"));
 {/*
@@ -8,16 +9,19 @@ function Cadburry(){
 }
     */ }
     // Arrow Function
+    {/* 
     const Cadburry= (props) =>{
         console.log(props);
         return <h3>{props.name}-{props.price}</h3>
     }
+        */}
 
 root.render(
     
   <>
   <h1>All Cadburry</h1>
   <Cadburry name="kitkat" price="20"/>
+  <CadburryKitkat/>
     
            {/*<h1>Kitkat</h1>
 <h2>Price:{5+5}</h2>

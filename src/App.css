@@ -1,0 +1,9 @@
+.heading{
+    background-color:rgb(255, 204, 204);
+    color:red;
+    border:1px double green;
+    padding:10px;
+    margin:5px 10px;
+    text-align:center;
+    
+}
