@@ -1,9 +1,16 @@
 import { createRoot } from "react-dom/client";
 
 const root = createRoot(document.getElementById("root"));
+{/*
+    //Uper Camel Case
 function Cadburry(){
     return <h3>Kitkat</h3>
 }
+    */ }
+    // Arrow Function
+    const Cadburry= () =>{
+        return <h3>Kitkat</h3>
+    }
 
 root.render(
     
