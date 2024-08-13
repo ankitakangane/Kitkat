@@ -1,0 +1,28 @@
+.navbar{
+    background-color:black;
+    color:rgb(255, 0, 255);
+    padding:10px;
+    display:flex;
+}
+.brand_name{
+    margin-right:200px;
+    font-size:30px;
+    font-weight:bold;
+    font-style:italic;
+}
+.navbar_link{
+    margin:10px;
+    padding:10px;
+    text-decoration: none;
+    font-size:25px;
+    color:rgb(0, 64, 128);
+
+}
+.page_title{
+    background-color: rgb(204, 204, 255);
+    color:rgb(26, 26, 255);
+    padding:10px;
+    margin:10px;
+    border-radius:20px;
+    text-align:center;
+}
