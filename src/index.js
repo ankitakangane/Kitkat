@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const currentPath = window.location.pathname;
 
-if (currentPath=="/home") {
+if (currentPath=="/") {
     root.render(<Home/>)
 }
 else if(currentPath=="/about") {

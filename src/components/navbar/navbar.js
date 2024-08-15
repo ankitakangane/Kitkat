@@ -11,7 +11,7 @@ function Navbar() {
       
 
       <div className="navbar_links">
-        <a href="./home" className="navbar_link">
+        <a href="/" className="navbar_link">
             Home
         </a>
 
