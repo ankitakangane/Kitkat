@@ -11,7 +11,7 @@ function Home() {
       Home
     </h1>
    
-    <img src={HomeImg} height="400px" width="600px" object-fit="content"/>
+    <img src={HomeImg} className="image" height="400px" width="600px" object-fit="content"/>
     <Footer/>
     </div>
 
